@@ -24,7 +24,7 @@ void main() {
     int numberOfCharacters = colors[i].toString().length;
     if (colors[i].toString().codeUnits[0] == 97 ||
         colors[i].toString().codeUnits[0] == 98) {
-      print(colors[i]);
+      print(colors[i].toString().toUpperCase());
     } else
       print(
           "sorry this colors contains $numberOfCharacters and it's not start with a or b");
