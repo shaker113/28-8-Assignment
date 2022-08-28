@@ -18,7 +18,7 @@ void main() {
     "orange",
     "purple",
     "gray",
-    "black",
+    "black"
   ];
   for (int i = 0; i < colors.length; i++) {
     int numberOfCharacters = colors[i].toString().length;
